@@ -33,7 +33,7 @@
     </v-layout>
     <v-dialog v-model="loading" max-width="400" persistent>
       <v-card>
-        <v-card-title class="display-1">Cargando</v-card-title>
+        <v-card-title class="display-1">Loading...</v-card-title>
         <v-card-text class="display-5">{{ msg }}</v-card-text>
       </v-card>
       <v-progress-linear
