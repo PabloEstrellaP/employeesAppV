@@ -8,14 +8,9 @@
 
 <script>
   import EmployeesCard from '~/components/EmployeesCard'
-
   export default {
     components : {
       EmployeesCard
     },
   }
 </script>
-
-<style>
-
-</style>
