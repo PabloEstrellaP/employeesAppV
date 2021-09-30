@@ -1,6 +1,6 @@
 # front-sappi
 
-## Build Setuppp
+## Build Setup
 
 ```bash
 # install dependencies
