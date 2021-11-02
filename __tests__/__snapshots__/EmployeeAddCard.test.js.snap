@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent Render correctly 1`] = `
+<v-card>
+  <v-card-title>
+    Add new employee
+  </v-card-title>
+   
+  <v-card-text>
+    <v-form>
+      <v-text-field
+        dense=""
+        label="Name"
+        outlined=""
+        rules="function (v) {
+          return !!v || \\"Name is required\\";
+        },function (v) {
+          return !!v && v.length <= 50 || \\"Name must be less than 50 characters\\";
+        }"
+      />
+       
+      <v-text-field
+        dense=""
+        label="Email"
+        outlined=""
+        rules="function (v) {
+          return !!v || \\"Email is required\\";
+        },function (v) {
+          return /.+@.+\\\\..+/.test(v) || \\"Email must be valid\\";
+        },function (v) {
+          return v && v.length <= 50 || \\"Email must be less than 50 characters\\";
+        }"
+      />
+    </v-form>
+     
+    <v-col>
+      <v-btn
+        block=""
+        class="info"
+      >
+        Clean
+      </v-btn>
+       
+      <!---->
+       
+      <v-btn
+        block=""
+        class="success mt-1"
+      >
+        Add
+      </v-btn>
+    </v-col>
+  </v-card-text>
+   
+  <v-dialog
+    max-width="290"
+    persistent=""
+  >
+    <v-card>
+      <v-card-title>
+        Are you sure you want to add this employee?
+      </v-card-title>
+       
+      <v-card-text
+        class="mt-5"
+      >
+        <v-layout
+          row=""
+          wrap=""
+        >
+          <v-spacer />
+           
+          <v-btn
+            class="error"
+          >
+            Cancel
+          </v-btn>
+           
+          <v-btn
+            class="success ml-3"
+          >
+            Add
+          </v-btn>
+        </v-layout>
+      </v-card-text>
+       
+      <!---->
+    </v-card>
+  </v-dialog>
+   
+  <v-dialog
+    max-width="290"
+    persistent=""
+  >
+    <v-card>
+      <v-card-title>
+        Error
+      </v-card-title>
+       
+      <v-card-text
+        class="mt-5"
+      >
+        
+        
+      
+      </v-card-text>
+       
+      <v-card-actions>
+        <v-spacer />
+         
+        <v-btn
+          class="secondary"
+        >
+           OK 
+        </v-btn>
+      </v-card-actions>
+    </v-card>
+  </v-dialog>
+</v-card>
+`;
