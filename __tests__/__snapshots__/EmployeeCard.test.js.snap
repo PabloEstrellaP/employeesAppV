@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render correctly 1`] = `
+<div>
+  <v-layout
+    row=""
+    wrap=""
+  >
+    <v-flex
+      class="pa-5"
+      md4=""
+      xs12=""
+    >
+      <employeeaddcard-stub />
+    </v-flex>
+     
+    <v-flex
+      class="pa-5"
+      md8=""
+      xs12=""
+    >
+      <p
+        id="isTrue"
+      >
+        false
+      </p>
+       
+      <v-card>
+        <v-toolbar
+          flat=""
+        >
+          <v-toolbar-title>
+            Employees
+          </v-toolbar-title>
+          <v-spacer />
+        </v-toolbar>
+         
+        <v-card-text>
+          <v-data-table
+            headers="[object Object],[object Object],[object Object],[object Object],[object Object]"
+            items=""
+            items-per-page="5"
+          />
+        </v-card-text>
+      </v-card>
+    </v-flex>
+  </v-layout>
+   
+  <v-dialog
+    max-width="400"
+    persistent=""
+  >
+    <v-card>
+      <v-card-title
+        class="display-1"
+      >
+        Loading...
+      </v-card-title>
+       
+      <v-card-text
+        class="display-5"
+      >
+        
+      </v-card-text>
+    </v-card>
+     
+    <v-progress-linear
+      color="primary"
+      indeterminate=""
+    />
+  </v-dialog>
+   
+  <employeedeletedialog-stub />
+</div>
+`;
