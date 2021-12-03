@@ -6,6 +6,6 @@ import EmployeeAddCard from '../components/EmployeeAddCard.vue' // ../my-compone
 describe('MyComponent', () => {
   it('Render correctly', () => {
     const wrapper = mount(EmployeeAddCard)
-    expect(wrapper.vm.$el).toMatchSnapshot()
+    expect(wrapper.menssage).toBe('Hello World')
   })
 })
