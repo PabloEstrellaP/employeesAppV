@@ -60,8 +60,8 @@
 <script>
 import { jsPDF } from "jspdf";
 
-import EmployeeAddCard from "~/components/EmployeeAddCard.vue";
-import EmployeeDeleteDialog from "~/components/EmployeeDeleteDialog.vue";
+import EmployeeAddCard from "../components/EmployeeAddCard.vue";
+import EmployeeDeleteDialog from "../components/EmployeeDeleteDialog.vue";
 export default {
   components: {
     EmployeeAddCard,
