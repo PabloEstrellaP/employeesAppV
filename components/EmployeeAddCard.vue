@@ -19,7 +19,7 @@
         ></v-text-field>
       </v-form>
       <v-col>
-        <v-btn block class="info" @click="cleanForm()">Clean</v-btn>
+        <v-btn block class="info" @click="cleanForm()">Clean 🙆🏼‍♂️</v-btn>
         <v-btn v-if="isEdit" block class="error mt-1" @click="cancelEdit()">Cancel</v-btn>
         <v-btn block class="success mt-1" @click="validate()">{{ isEdit ? 'Edit' : 'Add' }}</v-btn>
       </v-col>
