@@ -1,4 +1,5 @@
 
+import Vuetify from 'vuetify'
 
 import { mount } from '@vue/test-utils'
 import EmployeeAddCard from '../components/EmployeeAddCard.vue' // ../my-component.vue file

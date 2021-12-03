@@ -1,120 +1,172 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`MyComponent Render correctly 1`] = `
-<v-card>
-  <v-card-title>
+<div
+  class="v-card v-sheet theme--light"
+>
+  <div
+    class="v-card__title"
+  >
     Add new employee
-  </v-card-title>
+  </div>
    
-  <v-card-text>
-    <v-form>
-      <v-text-field
-        dense=""
-        label="Name"
-        outlined=""
-        rules="function (v) {
-          return !!v || \\"Name is required\\";
-        },function (v) {
-          return !!v && v.length <= 50 || \\"Name must be less than 50 characters\\";
-        }"
-      />
+  <div
+    class="v-card__text"
+  >
+    <form
+      class="v-form"
+      novalidate="novalidate"
+    >
+      <div
+        class="v-input v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+      >
+        <div
+          class="v-input__control"
+        >
+          <div
+            class="v-input__slot"
+          >
+            <fieldset
+              aria-hidden="true"
+            >
+              <legend
+                style="width: 0px;"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+            <div
+              class="v-text-field__slot"
+            >
+              <label
+                class="v-label theme--light"
+                for="input-4"
+                style="right: 0px; position: absolute;"
+              >
+                Name
+              </label>
+              <input
+                id="input-4"
+                type="text"
+              />
+            </div>
+          </div>
+          <div
+            class="v-text-field__details"
+          >
+            <div
+              class="v-messages theme--light"
+            >
+              <transition-group-stub
+                class="v-messages__wrapper"
+                name="message-transition"
+                tag="div"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
        
-      <v-text-field
-        dense=""
-        label="Email"
-        outlined=""
-        rules="function (v) {
-          return !!v || \\"Email is required\\";
-        },function (v) {
-          return /.+@.+\\\\..+/.test(v) || \\"Email must be valid\\";
-        },function (v) {
-          return v && v.length <= 50 || \\"Email must be less than 50 characters\\";
-        }"
-      />
-    </v-form>
+      <div
+        class="v-input v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+      >
+        <div
+          class="v-input__control"
+        >
+          <div
+            class="v-input__slot"
+          >
+            <fieldset
+              aria-hidden="true"
+            >
+              <legend
+                style="width: 0px;"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+            <div
+              class="v-text-field__slot"
+            >
+              <label
+                class="v-label theme--light"
+                for="input-7"
+                style="right: 0px; position: absolute;"
+              >
+                Email
+              </label>
+              <input
+                id="input-7"
+                type="text"
+              />
+            </div>
+          </div>
+          <div
+            class="v-text-field__details"
+          >
+            <div
+              class="v-messages theme--light"
+            >
+              <transition-group-stub
+                class="v-messages__wrapper"
+                name="message-transition"
+                tag="div"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
      
-    <v-col>
-      <v-btn
-        block=""
-        class="info"
+    <div
+      class="col"
+    >
+      <button
+        class="info v-btn v-btn--block v-btn--is-elevated v-btn--has-bg theme--light v-size--default"
+        type="button"
       >
-        Clean
-      </v-btn>
+        <span
+          class="v-btn__content"
+        >
+          Clean
+        </span>
+      </button>
        
       <!---->
        
-      <v-btn
-        block=""
-        class="success mt-1"
+      <button
+        class="success mt-1 v-btn v-btn--block v-btn--is-elevated v-btn--has-bg theme--light v-size--default"
+        type="button"
       >
-        Add
-      </v-btn>
-    </v-col>
-  </v-card-text>
-   
-  <v-dialog
-    max-width="290"
-    persistent=""
-  >
-    <v-card>
-      <v-card-title>
-        Are you sure you want to add this employee?
-      </v-card-title>
-       
-      <v-card-text
-        class="mt-5"
-      >
-        <v-layout
-          row=""
-          wrap=""
+        <span
+          class="v-btn__content"
         >
-          <v-spacer />
-           
-          <v-btn
-            class="error"
-          >
-            Cancel
-          </v-btn>
-           
-          <v-btn
-            class="success ml-3"
-          >
-            Add
-          </v-btn>
-        </v-layout>
-      </v-card-text>
-       
-      <!---->
-    </v-card>
-  </v-dialog>
+          Add
+        </span>
+      </button>
+    </div>
+  </div>
    
-  <v-dialog
-    max-width="290"
-    persistent=""
+  <div
+    class="v-dialog__container"
+    role="dialog"
   >
-    <v-card>
-      <v-card-title>
-        Error
-      </v-card-title>
-       
-      <v-card-text
-        class="mt-5"
-      >
-        
-        
-      
-      </v-card-text>
-       
-      <v-card-actions>
-        <v-spacer />
-         
-        <v-btn
-          class="secondary"
-        >
-           OK 
-        </v-btn>
-      </v-card-actions>
-    </v-card>
-  </v-dialog>
-</v-card>
+    <!---->
+  </div>
+   
+  <div
+    class="v-dialog__container"
+    role="dialog"
+  >
+    <!---->
+  </div>
+</div>
 `;
