@@ -156,7 +156,7 @@ export default {
         doc.text(`FIRMA`, 95, 170);
         doc.text(`___________________`, 73, 180);
         doc.text(`Nombre de quien firma`, 75, 190);
-        doc.text(`Nombre de la empresa`, 76, 200);
+        doc.text(`UTM`, 76, 200);
         doc.save(`${employee.name}.pdf`);
         this.isTrue = true;
         return true;
