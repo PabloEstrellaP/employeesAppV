@@ -1,4 +1,3 @@
-
 import Vuetify from 'vuetify'
 
 import { mount } from '@vue/test-utils'
